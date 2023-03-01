@@ -12,7 +12,7 @@ let buttonsDOM = [];
 class Products {
     async getProducts() {
         try {
-            let result = await fetch("https://61afbc6c3e2aba0017c494ef.mockapi.io/products");
+            let result = await fetch("https://63ff5efbc5c800a723925379.mockapi.io/products");
             let data = await result.json();
             let products = data;
             return products;
